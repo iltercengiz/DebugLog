@@ -12,6 +12,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/iltercengiz/DebugLog.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/iltercengiz'
   
-  s.source_files = 'DebugLog.h'
   s.public_header_files = 'DebugLog.h'
 end
