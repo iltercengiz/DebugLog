@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "DebugLog"
-  s.version          = "1.0"
+  s.version          = "1.0.1"
   s.summary          = "A logging macro that only logs in DEBUG environment"
   s.description      = <<-DESC
                        Use `DebugLog` instead of `NSLog` and don't worry again to ship your app with logging enabled.
