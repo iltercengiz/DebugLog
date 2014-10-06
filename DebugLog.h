@@ -15,7 +15,7 @@
         printf("[%s:%d]", __FUNCTION__, __LINE__);\
         NSString *_S_ =  [NSString stringWithFormat:__VA_ARGS__];\
         printf(" %s\n",[_S_ cStringUsingEncoding:NSUTF8StringEncoding]);\
-    } while(0);
+    } while(0)
 
 #else
 
